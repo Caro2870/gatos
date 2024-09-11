@@ -12,7 +12,9 @@ class DetailScreen extends StatelessWidget {
 
     return Scaffold(
       appBar: AppBar(
-        title: Text(item.name),
+        title: Center(
+          child: Text('${item.id} ${item.name}'),
+        ),
       ),
       body: Column(
         children: [

@@ -25,6 +25,7 @@ class MyApp extends StatelessWidget {
           title: 'Flutter Demo',
           theme: ThemeData(
             primarySwatch: Colors.blue,
+            fontFamily: 'Roboto', // Configura la fuente globalmente
           ),
           home:
               const SplashScreen(), // Configura la pantalla de splash como la pantalla inicial

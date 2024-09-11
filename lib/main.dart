@@ -27,6 +27,7 @@ class MyApp extends StatelessWidget {
             primarySwatch: Colors.blue,
             fontFamily: 'Roboto', // Configura la fuente globalmente
           ),
+          debugShowCheckedModeBanner: false, // Quita el banner de debug
           home:
               const SplashScreen(), // Configura la pantalla de splash como la pantalla inicial
         ),
